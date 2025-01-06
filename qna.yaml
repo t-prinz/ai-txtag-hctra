@@ -1,0 +1,101 @@
+version: 3
+domain: toll_roads
+created_by: Trey Prinz
+seed_examples:
+  - context: |
+      TxTag operations has been transitioned to the Harris County Toll Road Authority (HCTRA).
+    questions_and_answers:
+      - question: |
+          Who provides TxTag customer service?
+        answer: |
+          As of Nov. 9, 2024, the Harris County Toll Road Authority (HCTRA) is processing toll transactions on
+          TxDOT-operated toll roads in the Austin and Houston regions.
+      - question: |
+          Who do I contact regarding toll transactions?
+        answer: |
+          For assistance regarding toll transactions on or after Nov. 9, 2024, customers should contact HCTRA
+          customer service at hctra.org or by calling 281-875-EASY (3279).  TxTag will continue to invoice and
+          collect for transactions that occurred on or before Nov. 8, 2024. If you receive a bill from TxTag
+          for past due tolls, contact the TxTag Call Center or visit the two Austin-area customer service centers
+          to resolve the bill as soon as possible to avoid additional fees and collection notices.
+      - question: |
+          When will HCTRA begin billing and customer services operations for TxTag?
+        answer: |
+          HCTRA will begin performing billing and customer service operations for TxTag starting Dec. 2, 2024.
+  - context: |
+      TxTag accounts will be transitioned to a new HCTRA EZ TAG account.
+    questions_and_answers:
+      - question: |
+          Do I have to open a new HCTRA account and close my TxTag account?
+        answer: |
+          You may open a new EZ TAG account at any time. However, if your TxTag account is active and in good
+          standing, there is no reason to do so, as the account will automatically transition to HCTRA.
+      - question: What will happen to my account balance or prepaid tolls?
+        answer: |
+          If you have a TxTag account and an existing HCTRA account with matching information, your TxTag
+          account will be closed, and the remaining balance refunded. TxTAG will manage all communications
+          regarding closures and refunds.
+      - question: |
+          Will my current TxTag account still work after the transition?
+        answer: |
+          If your account was active and in good standing (meaning you have had transactions in the last 12
+          months and do not have a balance due), then your TxTag account will be transferred to HCTRA.
+  - context: |
+      Existing TxTag toll transponders and tags will continue to work on all roads
+      There is a fee for motorcycle and license plate tags
+    questions_and_answers:
+      - question: Will my current toll transponder or tag continue to work on all roads, or do I have to order a HCTRA tag?
+        answer: |
+          Yes, your current TxTag will continue to work on all toll roads in Texas, Oklahoma, and Kansas. Just make sure it
+          is installed in your vehicle, your account details are up to date, and there is enough money in your account for tolls.
+          If you need a new or replacement sticker tag after the transition, you will need to order an EZ TAG.
+      - question: |
+          Will I receive a new toll transponder or equipment after the transition?
+        answer: |
+          No, you will use your existing tag after the transition. Customers who need a new or replacement tag sticker
+          after the transition will have to order an EZ TAG.
+      - question: |
+          Will the motorcycle and license plate tags have a fee?
+        answer: |
+          Yes, HCTRA hard case tags have an initial fee of $15 for the first three tags and $10 each thereafter.
+  - context: |
+      The new customer service website is www.hctra.org
+      The new customer service phone number is 281-875-EASY (3279)
+      The HCTRA mobile app is the EZ TAG app in App Store or Google Play
+    questions_and_answers:
+      - question: |
+          Will the customer service phone number change?
+        answer: |
+          Yes, the customer service phone number is 281-875-EASY (3279).
+      - question: |
+          Will there be any changes to the mobile app or online portal?
+        answer: |
+          Yes, you can download the EZ TAG app in App Store or Google Play.
+      - question: |
+          Will TxTAG customers use the HCTRA website for account maintenance?
+        answer: |
+          Yes, customers will use the www.hctra.org website.
+  - context: |
+      The HCTRA statement cycle is monthly
+      The TxTag statement cycle is based on anniversary date
+    questions_and_answers:
+      - question: |
+          Will my statement cycle change?
+        answer: |
+          Yes, HCTRA statements are sent out monthly, whereas TxDOT statements or bills ran on an “anniversary date” cycle.
+      - question: |
+          Will my statement format change?
+        answer: |
+          Yes, statements will have a new look, but the same information will be included.
+      - question: |
+          Will past due invoices for TxTag go to HCTRA collection’s agency?
+        answer: |
+          Any past due invoices for transactions occurring before the transition period will remain with
+          TxTag and escalate according to TxDOT rules. To make a payment on past due invoices please contact TxTag at 1-888-468-9824.
+document_outline: |
+  Details associated with transition of TxTag operations to Harris County Toll Road Authority (HCTRA).
+document:
+  repo: https://github.com/t-prinz/ai-txtag-hctra.git
+  commit: 
+  patterns:
+    - hctra-faq.md
