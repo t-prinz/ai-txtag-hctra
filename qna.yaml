@@ -96,6 +96,6 @@ document_outline: |
   Details associated with transition of TxTag operations to Harris County Toll Road Authority (HCTRA).
 document:
   repo: https://github.com/t-prinz/ai-txtag-hctra.git
-  commit: 
+  commit: 4da4c4ff548e12ec811aff2304985d3c58b54f92
   patterns:
     - hctra-faq.md
